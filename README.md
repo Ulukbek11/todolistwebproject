@@ -62,16 +62,16 @@ python -m http.server 8000
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](images/main.png)
+![Main Interface](img/main.png)
 
 ### Adding Tasks
-![Adding Tasks](images/add-task.png)
+![Adding Tasks](img/add-task.png)
 
 ### Filtering Tasks
-![Filtering Tasks](images/filters.png)
+![Filtering Tasks](img/filters.png)
 
 ### Completed Tasks
-![Completed Tasks](images/completed.png)
+![Completed Tasks](img/completed.png)
 
 ## 💡 How to Use
 
