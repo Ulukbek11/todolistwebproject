@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/icon2.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="img/icon2.png">
 </head>
 <body>
-    <div class="container">
-        <h1>✓ Todo List</h1>
-        
-        <div class="input-container">
-            <input 
-                type="text" 
-                id="todo-input" 
-                placeholder="Add a new task..."
-                maxlength="100"
-            >
-            <button id="add-btn">Add</button>
-        </div>
-
-        <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="active">Active</button>
-            <button class="filter-btn" data-filter="completed">Completed</button>
-        </div>
-
-        <ul id="todo-list"></ul>
-
-        <div class="stats" id="stats"></div>
+<div class="container">
+    <h1>✓ Todo List</h1>
+    <div class="input-container">
+        <input 
+            type="text" 
+            id="todo-input" 
+            placeholder="Add a new task..."
+            maxlength="100"
+        >
+        <button id="add-btn">Add</button>
     </div>
+    
+    <button id="random-btn">🎲 Generate Random Task</button>
+    
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="active">Active</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+    </div>
+    
+    <ul id="todo-list"></ul>
+    
+    <div class="stats" id="stats"></div>
+</div>
 
-    <script src="main.js">
-    </script>
+<script src="main.js">
+</script>
 </body>
 </html>
