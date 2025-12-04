@@ -57,7 +57,7 @@ python -m http.server 8000
 
 ## 📸 Figma design
 
-👉 [Открыть дизайн в Figma](https://www.figma.com/design/egJxsyTZfoppyUhHbzFAUi/Untitled?node-id=3-5&t=C385Kbg0VuV7lJl4-1)
+👉 [Открыть дизайн в Figma](https://www.figma.com/design/uSLRcGgFpf4UYlhrD6EvUd/todolistwebappproject--Community-?node-id=0-1&t=SkghGxZQe7n6hOgo-1)
 
 ## 📸 Screenshots
 
